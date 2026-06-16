@@ -75,6 +75,12 @@ export default function TimelineEvent({ event, index, isLast }) {
               {!isDel && (
                 <p className="text-xs text-neutral-500 mt-0.5">{event.org}</p>
               )}
+              {event.type === "promotion" && event.promotedFrom && (
+                <p className="text-xs text-emerald-500/80 mt-1 flex items-center gap-1">
+                  <span>↑</span>
+                  <span>Promoted from {event.promotedFrom}</span>
+                </p>
+              )}
             </div>
             <ChevronDown
               size={15}

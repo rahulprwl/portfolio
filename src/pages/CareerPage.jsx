@@ -16,7 +16,9 @@ export default function CareerPage() {
 
   const filtered = filter === "all"
     ? career
-    : career.filter((e) => e.type === filter);
+    : filter === "job"
+      ? career.filter((e) => e.type === "job" || e.type === "promotion")
+      : career.filter((e) => e.type === filter);
   console.log(filtered);
 
   return (
@@ -52,6 +54,7 @@ export default function CareerPage() {
       {/* Legend */}
       <div className="flex flex-wrap gap-4 mb-8 text-xs text-neutral-600">
         <span><span className="inline-block w-2 h-2 rounded-full bg-blue-500 mr-1.5"></span>Role change</span>
+        <span><span className="inline-block w-2 h-2 rounded-full bg-emerald-500 mr-1.5"></span>Promotion</span>
         <span><span className="inline-block w-2 h-2 rounded-full bg-orange-500 mr-1.5 opacity-60"></span>Deliverable (indented)</span>
         <span><span className="inline-block w-2 h-2 rounded-full bg-amber-500 mr-1.5"></span>Award</span>
         <span><span className="inline-block w-2 h-2 rounded-full bg-violet-500 mr-1.5"></span>Education</span>
