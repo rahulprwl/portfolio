@@ -1,0 +1,57 @@
+[
+  {
+    "id": "prime",
+    "title": "Prime",
+    "type": "enterprise",
+    "dateRange": "June 2025 – Present",
+    "org": "London Stock Exchange Group",
+    "summary": "Modernizing legacy index generation system to support thousands of real-time and EOD indices.",
+    "description": "Modernization of a legacy system used to compute and deliver hundreds of financial indices. Working within the FTSE Russell team on **real-time** and **end-of-day** index computation pipelines.\n\n### What I did\n- Migrated core calculation engine to the latest .NET stack\n- Reduced daily file generation time by 35%. Using Multi-Threading to process files in parallel. \n- Improved fault tolerance across EOD batch runs\n- Collaborated with global quant teams to validate index accuracy",
+    "techStack": [".NET Framework", "C#", "Angular", "MySQL", "AWS"],
+    "link": ""
+  },
+  {
+    "id": "mark-smart-credit",
+    "title": "Mark Smart Credit",
+    "type": "enterprise",
+    "dateRange": "Jul 2020 – May 2025",
+    "org": "Societe Generale",
+    "summary": "Cloud-native financial microservices platform on Azure with Kubernetes-based deployment and FinOps governance.",
+    "description": "End-to-end migration and modernization of a critical credit marking platform used across Societe Generale's trading operations.\n\n### What I did\n- Migrated .NET Framework services to .NET Core and deployed on **Azure Kubernetes Service (AKS)**\n- Introduced caching and async processing with message queues for efficient resource usage\n- Reduced cloud infrastructure costs by **30** through FinOps tagging and right-sizing\n- Built CI/CD pipelines with Jenkins and ArgoCD with zero-downtime rolling deployments\n- Integrated Azure Databricks and Data Lake for analytics workloads. \n- Streamlined the CI/CD by automating the workflows for vulnerability and code coverage analysis.",
+    "techStack": [".NET Core", "C#", "Angular", "PostgreSQL", "Azure", "AKS", "Jenkins", "Kubernetes", "Docker", "Git"],
+    "link": ""
+  },
+  {
+    "id": "my-wall-dashboard",
+    "title": "My Wall Dashboard",
+    "type": "enterprise",
+    "dateRange": "Jul 2020 – May 2025",
+    "org": "Societe Generale",
+    "summary": "Trade simulation widgets with embedded pre-deal financial checks and high-performance dynamic rendering.",
+    "description": "Built a suite of interactive trading widgets embedded in the internal dealer dashboard, used by hundreds of traders daily.\n\n### What I did\n- Developed pre-deal financial check widgets that surface risk signals before order submission\n- Implemented lazy loading and dynamic rendering — cut initial load time by **40%**\n- Used **Preact** for performance-critical widget surfaces alongside the main React shell\n- Set up **Storybook** for component documentation and visual regression testing",
+    "techStack": [".NET", "React", "Preact", "Storybook", "Azure", "Karma"],
+    "link": ""
+  },
+  {
+    "id": "algo-referential",
+    "title": "Algo Referential",
+    "type": "enterprise",
+    "dateRange": "Dec 2019 – Apr 2020",
+    "org": "Societe Generale",
+    "summary": "API and audit layer for algorithm repository management supporting governance and compliance teams.",
+    "description": "Governance tool for managing the lifecycle of trading algorithms — from creation and versioning through compliance sign-off and deployment.\n\n### What I did\n- Designed and built RESTful APIs for algorithm CRUD and version management\n- Implemented a full audit trail layer to support compliance and regulatory reporting\n- Integrated different Systems to get the details of Running Algorithm",
+    "techStack": ["React", "Node.js", "Firebase", "Firestore"],
+    "link": ""
+  },
+  {
+    "id": "adaptive-lms",
+    "title": "Adaptive Learning Management System",
+    "type": "public",
+    "dateRange": "Dec 2019 – Apr 2020",
+    "org": "Independent",
+    "summary": "AI-driven assessments and analytics platform improving learner engagement and personalizing learning paths.",
+    "description": "A project exploring adaptive learning — a platform that adjusts the difficulty and topic sequence of assessments based on learner performance.\n\n### What I did\n- Built the full-stack application using React and Node.js on Firebase\n- Designed an adaptive assessment engine that scores responses and reorders question sets in real time\n- Integrated Firestore for real-time sync of learner progress across devices",
+    "techStack": ["React", "Node.js", "Firebase", "Firestore","Python"],
+    "link": "https://learningsprints.eskwelabs.com"
+  }
+]

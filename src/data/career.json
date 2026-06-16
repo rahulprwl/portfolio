@@ -1,0 +1,298 @@
+[
+  {
+    "date": "Feb 2026",
+    "eventDate": "2026-02-01",
+    "title": "Released JavaAPI library",
+    "org": "GitHub",
+    "type": "deliverable",
+    "description": "Created a lightweight, high-performance Java API wrapper/library for system integration and data processing. It is designed to be used by different teams within the organisation for quick and easy integration with different Services using Kafka Messaging System.",
+    "tags": [
+      "Java",
+      "API",
+      "JSON",
+      "Springboot",
+      "Kafka"
+    ]
+  },
+  {
+    "date": "Jan 2026",
+    "eventDate": "2026-01-01",
+    "title": "Built DotnetService microservice",
+    "org": "GitHub",
+    "type": "deliverable",
+    "description": "Developed a robust .NET-based microservice with optimized database operations and asynchronous message handling.",
+    "tags": [
+      ".NET",
+      "C#",
+      "Microservices",
+      "REST API"
+    ]
+  },
+  {
+    "date": "Dec 2025",
+    "eventDate": "2025-12-01",
+    "title": "Designed New Screen for Turnover Report reconciliation",
+    "org": "LSEG",
+    "type": "deliverable",
+    "parentOrg": "London Stock Exchange Group",
+    "description": "Designed a new screen for turnover report reconciliation, which reduced the time taken for manual reconciliation by 35% and improved fault tolerance across EOD batch runs.",
+    "tags": [
+      ".NET",
+      "AWS",
+      "MySQL",
+      "Angular"
+    ]
+  },
+  {
+    "date": "Dec 2025",
+    "eventDate": "2025-12-01",
+    "title": "Published ReactSmallApps suite",
+    "org": "GitHub",
+    "type": "deliverable",
+    "description": "A curated collection of utility React applications demonstrating clean state management, modular components, and premium styling.",
+    "tags": [
+      "React",
+      "TypeScript",
+      "Vite",
+      "TailwindCSS"
+    ]
+  },
+  {
+    "date": "Jul 2025",
+    "eventDate": "2025-07-01",
+    "title": "Shipped CreditCardBoard dashboard",
+    "org": "GitHub",
+    "type": "deliverable",
+    "description": "Designed an interactive web interface for credit card management, analytics visualization, and statement reconciliation.",
+    "tags": [
+      "React",
+      "Chart.js",
+      "Dashboard",
+      "Finance"
+    ]
+  },
+  {
+    "date": "Jun 2025",
+    "eventDate": "2025-06-01",
+    "title": "Senior Software Engineer",
+    "org": "London Stock Exchange Group",
+    "type": "job",
+    "description": "Working to modernize the legacy system used to make and deliver hundreds of financial indices. Part of the FTSE Russell team, responsible for indices computed on real-time and EOD basis.",
+    "tags": [
+      ".NET",
+      "C#",
+      "Angular",
+      "AWS",
+      "MySQL"
+    ]
+  },
+  {
+    "date": "Dec 2024",
+    "eventDate": "2024-12-01",
+    "title": "Created Games collection",
+    "org": "GitHub",
+    "type": "deliverable",
+    "description": "Developed classic browser-based games with smooth canvas animations, game logic loops, and interactive UI controls.",
+    "tags": [
+      "TypeScript",
+      "HTML5 Canvas",
+      "Game Dev",
+      "Web"
+    ]
+  },
+  {
+    "date": "Sept 2024",
+    "eventDate": "2024-09-01",
+    "title": "Migrated Mark Smart Credit to .NET Core + AKS",
+    "org": "Societe Generale",
+    "type": "deliverable",
+    "parentOrg": "Societe Generale",
+    "description": "Full migration of .NET Framework services to .NET Core, containerized with Docker and deployed on Azure Kubernetes Service. Improved deployment frequency from monthly to weekly with zero-downtime rolling updates.",
+    "tags": [
+      ".NET Core",
+      "AKS",
+      "Docker",
+      "Azure",
+      ".NET Framework",
+      "Kubernetes",
+      "Docker",
+      "GitHub",
+      "Angular",
+      "Nginx",
+      "React"
+    ]
+  },
+  {
+    "date": "Jul 2023",
+    "eventDate": "2023-07-01",
+    "title": "Launched My Wall Dashboard trade widgets",
+    "org": "Societe Generale",
+    "type": "deliverable",
+    "parentOrg": "Societe Generale",
+    "description": "Developed pre-deal financial check widgets embedded in the trading dashboard. Used lazy loading and dynamic rendering to cut initial load time by 40%.",
+    "tags": [
+      "React",
+      "Preact",
+      ".NET",
+      "Storybook"
+    ]
+  },
+  {
+    "date": "Feb 2025",
+    "eventDate": "2025-02-01",
+    "title": "Implemented Jenkins + ArgoCD CI/CD pipeline",
+    "org": "Societe Generale",
+    "type": "deliverable",
+    "parentOrg": "Societe Generale",
+    "description": "End-to-end pipeline from git push to AKS deployment using Helm charts. Enabled zero-downtime rolling updates and automated rollback on health check failure.",
+    "tags": [
+      "Jenkins",
+      "ArgoCD",
+      "Helm",
+      "AKS"
+    ]
+  },
+  {
+    "date": "Jul 2020",
+    "eventDate": "2020-07-01",
+    "title": "Specialist Software Engineer",
+    "org": "Societe Generale",
+    "type": "job",
+    "description": "Led design and deployment of cloud-native financial microservices on Azure. Reduced cloud costs by 30%, built CI/CD pipelines with Jenkins and ArgoCD, and championed FinOps and security governance across teams.",
+    "tags": [
+      ".NET Core",
+      "Azure",
+      "AKS",
+      "Jenkins",
+      "ArgoCD",
+      "PostgreSQL",
+      "Kubernetes",
+      "Docker",
+      "GitHub",
+      "Angular",
+      "Nginx",
+      "React"
+    ]
+  },
+  {
+    "date": "Oct 2019",
+    "eventDate": "2019-10-01",
+    "title": "Built Courseraphp web app",
+    "org": "GitHub",
+    "type": "deliverable",
+    "description": "Web application development assignment for Coursera week 6 focusing on web programming principles and database connectivity in PHP.",
+    "tags": [
+      "PHP",
+      "Web Development",
+      "MySQL",
+      "CSS"
+    ]
+  },
+  {
+    "date": "Oct 2019",
+    "eventDate": "2019-10-01",
+    "title": "Published PHP assignment",
+    "org": "GitHub",
+    "type": "deliverable",
+    "description": "PHP coursework demonstrating form validation, user authentication, and CRUD operations on database resources.",
+    "tags": [
+      "PHP",
+      "SQL",
+      "Form Handling",
+      "Web Security"
+    ]
+  },
+  {
+    "date": "Dec 2017",
+    "eventDate": "2017-12-01",
+    "title": "Created first HTML webpage",
+    "org": "GitHub",
+    "type": "deliverable",
+    "description": "My very first web page, exploring the fundamentals of semantic HTML structures, standard layouts, and custom CSS styling.",
+    "tags": [
+      "HTML",
+      "CSS",
+      "Responsive Design",
+      "Learning"
+    ]
+  },
+  {
+    "date": "Dec 2023",
+    "eventDate": "2023-12-01",
+    "title": "Star of the Quarter",
+    "org": "Societe Generale",
+    "type": "milestone",
+    "description": "Recognized for fast-paced delivery, reducing technical debt, and driving project modernization efforts.",
+    "tags": [
+      "Award"
+    ]
+  },
+  {
+    "date": "Dec 2023",
+    "eventDate": "2023-12-01",
+    "title": "Data-Driven Architecture recognition",
+    "org": "Societe Generale",
+    "type": "milestone",
+    "description": "Recognised for a data-driven approach to project development, resulting in significantly easier support and maintenance.",
+    "tags": [
+      "Award",
+      "FinOps"
+    ]
+  },
+  {
+    "date": "Sept 2022",
+    "eventDate": "2022-09-01",
+    "title": "Stable Production recognition",
+    "org": "Societe Generale",
+    "type": "milestone",
+    "description": "Recognised for keeping production stable while serving as support manager across 4 different projects simultaneously.",
+    "tags": [
+      "Award",
+      "Reliability"
+    ]
+  },
+  {
+    "date": "Aug 2024",
+    "eventDate": "2024-08-01",
+    "title": "AZ-204 Azure Developer Associate (Trained)",
+    "org": "Microsoft E-Learning",
+    "type": "education",
+    "description": "Completed Microsoft's official Azure Developer Associate training covering Azure App Services, Functions, storage, and security.",
+    "tags": [
+      "Azure",
+      "Certification",
+      "Cloud",
+      "AKS"
+    ]
+  },
+  {
+    "date": "Aug 2022",
+    "eventDate": "2022-08-01",
+    "title": "Intellipaat DevOps Certification",
+    "org": "Intellipaat",
+    "type": "education",
+    "description": "Certified in DevOps practices covering CI/CD, containerization, and infrastructure automation.",
+    "tags": [
+      "DevOps",
+      "CI/CD",
+      "Certification",
+      "Ansible",
+      "AKS",
+      "Nginx"
+    ]
+  },
+  {
+    "date": "May 2020",
+    "eventDate": "2020-05-01",
+    "title": "B.Tech. Computer Science with Specialization in Information Security",
+    "org": "Vellore Institute of Technology",
+    "type": "education",
+    "description": "Graduated with 9.2/10 CGPA. Specialization in Information Security. Placed on the University Merit List. Coursework in Cryptography, Web Development, DSA, and Distributed Systems.",
+    "tags": [
+      "VIT",
+      "9.2 CGPA",
+      "Merit List",
+      "Information Security"
+    ]
+  }
+]
