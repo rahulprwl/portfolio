@@ -5,6 +5,7 @@ import contact from "../data/contact.json";
 const links = [
   { to: "/", label: "Projects", end: true },
   { to: "/career", label: "Career" },
+  { to: "/skills", label: "Skills" },
   { to: "/contact", label: "Contact" },
 ];
 

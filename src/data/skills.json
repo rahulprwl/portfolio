@@ -1,0 +1,88 @@
+[
+  {
+    "category": "Languages",
+    "categoryIcon": "Code2",
+    "skills": [
+      { "name": "C#", "icon": "SiSharp", "level": "expert" },
+      { "name": "TypeScript", "icon": "SiTypescript", "level": "expert" },
+      { "name": "JavaScript", "icon": "SiJavascript", "level": "expert" },
+      { "name": "Java", "icon": "FaJava", "level": "proficient" },
+      { "name": "Python", "icon": "SiPython", "level": "expert" },
+      { "name": "PHP", "icon": "SiPhp", "level": "familiar" }
+    ]
+  },
+  {
+    "category": "Frontend",
+    "categoryIcon": "Monitor",
+    "skills": [
+      { "name": "React", "icon": "SiReact", "level": "expert" },
+      { "name": "Angular", "icon": "SiAngular", "level": "proficient" },
+      { "name": "HTML5", "icon": "SiHtml5", "level": "expert" },
+      { "name": "CSS3", "icon": "SiCss", "level": "proficient" },
+      { "name": "TailwindCSS", "icon": "SiTailwindcss", "level": "proficient" },
+      { "name": "Vite", "icon": "SiVite", "level": "proficient" },
+      { "name": "Preact", "icon": "SiPreact", "level": "familiar" },
+      { "name": "Storybook", "icon": "SiStorybook", "level": "familiar" }
+    ]
+  },
+  {
+    "category": "Backend & APIs",
+    "categoryIcon": "Server",
+    "skills": [
+      { "name": ".NET Core", "icon": "SiDotnet", "level": "expert" },
+      { "name": ".NET Framework", "icon": "SiDotnet", "level": "expert" },
+      { "name": "Node.js", "icon": "SiNodedotjs", "level": "proficient" },
+      { "name": "Kafka", "icon": "SiApachekafka", "level": "proficient" },
+      { "name": "Spring Boot", "icon": "SiSpringboot", "level": "proficient" },
+      { "name": "REST APIs", "icon": null, "level": "expert" }
+    ]
+  },
+  {
+    "category": "Cloud & DevOps",
+    "categoryIcon": "Cloud",
+    "skills": [
+      { "name": "Azure", "icon": "FaMicrosoft", "level": "expert" },
+      { "name": "Docker", "icon": "SiDocker", "level": "expert" },
+      { "name": "AWS", "icon": "FaAws", "level": "proficient" },
+      { "name": "Kubernetes", "icon": "SiKubernetes", "level": "proficient" },
+      { "name": "Jenkins", "icon": "SiJenkins", "level": "proficient" },
+      { "name": "ArgoCD", "icon": "SiArgo", "level": "proficient" },
+      { "name": "Nginx", "icon": "SiNginx", "level": "proficient" },
+      { "name": "Helm", "icon": null, "level": "familiar" }
+    ]
+  },
+  {
+    "category": "Databases",
+    "categoryIcon": "Database",
+    "skills": [
+      { "name": "PostgreSQL", "icon": "SiPostgresql", "level": "proficient" },
+      { "name": "MySQL", "icon": "SiMysql", "level": "proficient" },
+      { "name": "Firebase", "icon": "SiFirebase", "level": "proficient" },
+      { "name": "MongoDB", "icon": "SiMongodb", "level": "familiar" }
+    ]
+  },
+  {
+    "category": "Tools & Practices",
+    "categoryIcon": "Wrench",
+    "skills": [
+      { "name": "Git", "icon": "SiGit", "level": "expert" },
+      { "name": "GitHub", "icon": "SiGithub", "level": "expert" },
+      { "name": "Postman", "icon": "SiPostman", "level": "proficient" },
+      { "name": "VS Code", "icon": null, "level": "proficient" },
+      { "name": "IntelliJ", "icon": "SiIntellijidea", "level": "proficient" },
+      { "name": "VS 2026", "icon": null, "level": "proficient" }
+    ]
+  },
+  {
+    "category": "Agentic AI",
+    "categoryIcon": "Bot",
+    "skills": [
+      { "name": "OpenAI", "icon": "SiOpenai", "level": "proficient" },
+      { "name": "Google Gemini", "icon": "SiGoogle", "level": "proficient" },
+      { "name": "Hugging Face", "icon": null, "level": "familiar" },
+      { "name": "Copilot", "icon": "SiGithubcopilot", "level": "proficient" },
+      { "name": "Claude", "icon": "SiClaude", "level": "familiar" },
+      { "name": "LangChain", "icon": null, "level": "familiar" }
+    ]
+  }
+]
