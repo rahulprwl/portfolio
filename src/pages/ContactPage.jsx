@@ -1,11 +1,18 @@
 import { motion } from "framer-motion";
 import { Mail, Phone, MapPin, ExternalLink, Download } from "lucide-react";
-import { FaLinkedin, FaGithub, FaHackerrank } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaHackerrank, FaWhatsapp } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 import contact from "../data/contact.json";
 import ContactRow from "../components/ContactRow";
 
 const socials = [
+  {
+    key: "whatApp",
+    label: "WhatsApp",
+    Icon: FaWhatsapp,
+    href: contact.whatApp,
+    sub: "Connect on WhatsApp",
+  },
   {
     key: "linkedin",
     label: "LinkedIn",
