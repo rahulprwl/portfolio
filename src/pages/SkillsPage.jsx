@@ -1,9 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { useInView } from "react-intersection-observer";
-import { Code2, Monitor, Server, Cloud, Database, Wrench, Bot } from "lucide-react";
 import skills from "../data/skills.json";
-import SkillChip from "../components/SkillChip";
+import CategoryCard from "../components/CategoryCard";
 
 const LEVEL_FILTERS = [
   { key: "all",        label: "All" },
@@ -12,55 +10,11 @@ const LEVEL_FILTERS = [
   { key: "familiar",   label: "Familiar" },
 ];
 
-const CATEGORY_ICON_MAP = { Code2, Monitor, Server, Cloud, Database, Wrench, Bot };
-
 const LEVEL_LEGEND = [
   { label: "Expert",     dot: "bg-brand-500" },
   { label: "Proficient", dot: "bg-emerald-500" },
   { label: "Familiar",   dot: "bg-amber-500" },
 ];
-
-function CategoryCard({ category, filter, index }) {
-  const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.1 });
-  const CatIcon = CATEGORY_ICON_MAP[category.categoryIcon] || Bot;
-
-  const visibleSkills =
-    filter === "all"
-      ? category.skills
-      : category.skills.filter((s) => s.level === filter);
-
-  if (visibleSkills.length === 0) return null;
-
-  return (
-    <motion.div
-      ref={ref}
-      initial={{ opacity: 0, y: 20 }}
-      animate={inView ? { opacity: 1, y: 0 } : {}}
-      transition={{ duration: 0.4, delay: index * 0.07 }}
-      className="card flex flex-col gap-4"
-    >
-      {/* Card header */}
-      <div className="flex items-center gap-2.5">
-        <div className="w-7 h-7 rounded-lg bg-brand-500/10 flex items-center justify-center shrink-0">
-          <CatIcon size={14} className="text-brand-400" />
-        </div>
-        <h2 className="text-sm font-semibold text-white tracking-tight">
-          {category.category}
-        </h2>
-        <span className="ml-auto text-xs font-mono text-neutral-700">
-          {visibleSkills.length}
-        </span>
-      </div>
-
-      {/* Chips */}
-      <div className="flex flex-wrap gap-1.5">
-        {visibleSkills.map((skill) => (
-          <SkillChip key={skill.name} skill={skill} />
-        ))}
-      </div>
-    </motion.div>
-  );
-}
 
 export default function SkillsPage() {
   const [filter, setFilter] = useState("all");
@@ -71,6 +25,7 @@ export default function SkillsPage() {
 
   return (
     <main className="max-w-5xl mx-auto px-6 pt-24 pb-16">
+      {/* Header */}
       <motion.div
         initial={{ opacity: 0, y: 12 }}
         animate={{ opacity: 1, y: 0 }}
