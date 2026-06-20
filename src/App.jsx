@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import AnimatedBackground from "./components/AnimatedBackground";
 import Navbar from "./components/Navbar";
 import ProjectsPage from "./pages/ProjectsPage";
 import ProjectDetail from "./pages/ProjectDetail";
@@ -9,6 +10,8 @@ import ContactPage from "./pages/ContactPage";
 export default function App() {
   return (
     <BrowserRouter>
+      <AnimatedBackground />
+      <div style={{ position: "relative", zIndex: 1 }}>
       <Navbar />
       <Routes>
         <Route path="/"               element={<ProjectsPage />} />
@@ -17,6 +20,7 @@ export default function App() {
         <Route path="/skills"         element={<SkillsPage />} />
         <Route path="/contact"        element={<ContactPage />} />
       </Routes>
+      </div>
     </BrowserRouter>
   );
 }
